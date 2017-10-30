@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A11212F21DDDF0280010582B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11212F11DDDF0280010582B /* SignUpViewController.swift */; };
+		A1195DD41DDD49E5009E00D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1195DD31DDD49E5009E00D8 /* AppDelegate.swift */; };
+		A1195DDC1DDD49E5009E00D8 /* Randonne_e_Tunisie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1195DDA1DDD49E5009E00D8 /* Randonne_e_Tunisie.xcdatamodeld */; };
+		A1195DDE1DDD49E5009E00D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1195DDD1DDD49E5009E00D8 /* Assets.xcassets */; };
+		A1195DE11DDD49E5009E00D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1195DDF1DDD49E5009E00D8 /* LaunchScreen.storyboard */; };
+		A13FC5A01DE8257600A9087B /* CarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13FC59F1DE8257600A9087B /* CarouselViewController.swift */; };
+		A13FC5A41DE8338D00A9087B /* GalleryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13FC5A31DE8338D00A9087B /* GalleryCollectionViewController.swift */; };
+		A13FC5A61DE83A4400A9087B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13FC5A51DE83A4400A9087B /* Main.storyboard */; };
+		A142D30D1E1407A7001C3FA4 /* MyHikesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A142D30C1E1407A7001C3FA4 /* MyHikesTableViewController.swift */; };
+		A142D30F1E143CF8001C3FA4 /* ParticipationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A142D30E1E143CF8001C3FA4 /* ParticipationsTableViewController.swift */; };
+		A16EA7CB1DF1B393004EC03D /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16EA7CA1DF1B393004EC03D /* LocationViewController.swift */; };
+		A17989EE1DFAC426006E678D /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17989ED1DFAC426006E678D /* AddPostViewController.swift */; };
+		A17EAD1D1DDE71F1002E26F8 /* NewHikeFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17EAD1C1DDE71F1002E26F8 /* NewHikeFormViewController.swift */; };
+		A17EAD211DDE7AF9002E26F8 /* CustomCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17EAD201DDE7AF9002E26F8 /* CustomCells.swift */; };
+		A17EAD251DDEF773002E26F8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17EAD241DDEF773002E26F8 /* ProfileViewController.swift */; };
+		A17EAD291DDF09EE002E26F8 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17EAD281DDF09EE002E26F8 /* EditProfileViewController.swift */; };
+		A18A5EE81DDDA60200DE4190 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18A5EE71DDDA60200DE4190 /* LoginViewController.swift */; };
+		A1A9CB9C1E126A230035F691 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A9CB9B1E126A230035F691 /* SearchTableViewController.swift */; };
+		A1B5CBD51DFA2C5300367142 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B5CBD41DFA2C5300367142 /* Post.swift */; };
+		A1B5CBD71DFA2CF500367142 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B5CBD61DFA2CF500367142 /* Media.swift */; };
+		A1B5CBD91DFA2D7D00367142 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B5CBD81DFA2D7D00367142 /* User.swift */; };
+		A1BAE8651DEB30E3005BF402 /* HikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BAE8641DEB30E3005BF402 /* HikeViewController.swift */; };
+		A1CA51891DF9F175007F7E7B /* Randonnee.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CA51881DF9F175007F7E7B /* Randonnee.swift */; };
+		A1CFA8501E11543800792813 /* Participation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CFA84F1E11543800792813 /* Participation.swift */; };
+		A1DB43D91DDE099700A1AB1D /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DB43D81DDE099700A1AB1D /* HomeTableViewController.swift */; };
+		AC13AA140A164F7CCB7AE74F /* Pods_Randonne_e_Tunisie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87BB411D53AA852881A254B6 /* Pods_Randonne_e_Tunisie.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4521026D3E4EAEBE4BCE0EA8 /* Pods-Randonnée Tunisie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Randonnée Tunisie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Randonnée Tunisie/Pods-Randonnée Tunisie.debug.xcconfig"; sourceTree = "<group>"; };
+		87BB411D53AA852881A254B6 /* Pods_Randonne_e_Tunisie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Randonne_e_Tunisie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11212EC1DDDC7F90010582B /* Randonnée Tunisie-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Randonnée Tunisie-Bridging-Header.h"; sourceTree = "<group>"; };
+		A11212F01DDDD71E0010582B /* Randonnée Tunisie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Randonnée Tunisie.entitlements"; sourceTree = "<group>"; };
+		A11212F11DDDF0280010582B /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A1195DD01DDD49E5009E00D8 /* Randonnée Tunisie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Randonnée Tunisie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1195DD31DDD49E5009E00D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1195DDB1DDD49E5009E00D8 /* Randonne_e_Tunisie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Randonne_e_Tunisie.xcdatamodel; sourceTree = "<group>"; };
+		A1195DDD1DDD49E5009E00D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1195DE01DDD49E5009E00D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1195DE21DDD49E5009E00D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13FC59F1DE8257600A9087B /* CarouselViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselViewController.swift; sourceTree = "<group>"; };
+		A13FC5A31DE8338D00A9087B /* GalleryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewController.swift; sourceTree = "<group>"; };
+		A13FC5A51DE83A4400A9087B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A142D30C1E1407A7001C3FA4 /* MyHikesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHikesTableViewController.swift; sourceTree = "<group>"; };
+		A142D30E1E143CF8001C3FA4 /* ParticipationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticipationsTableViewController.swift; sourceTree = "<group>"; };
+		A16EA7CA1DF1B393004EC03D /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		A17989ED1DFAC426006E678D /* AddPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
+		A17EAD1C1DDE71F1002E26F8 /* NewHikeFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewHikeFormViewController.swift; sourceTree = "<group>"; };
+		A17EAD201DDE7AF9002E26F8 /* CustomCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCells.swift; sourceTree = "<group>"; };
+		A17EAD241DDEF773002E26F8 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A17EAD281DDF09EE002E26F8 /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		A18A5EE71DDDA60200DE4190 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A1A9CB9B1E126A230035F691 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		A1B5CBD41DFA2C5300367142 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		A1B5CBD61DFA2CF500367142 /* Media.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		A1B5CBD81DFA2D7D00367142 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A1BAE8641DEB30E3005BF402 /* HikeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeViewController.swift; sourceTree = "<group>"; };
+		A1CA51881DF9F175007F7E7B /* Randonnee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Randonnee.swift; sourceTree = "<group>"; };
+		A1CFA84F1E11543800792813 /* Participation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Participation.swift; sourceTree = "<group>"; };
+		A1DB43D81DDE099700A1AB1D /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		F36478EB48EEA4B21E3A7929 /* Pods-Randonnée Tunisie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Randonnée Tunisie.release.xcconfig"; path = "Pods/Target Support Files/Pods-Randonnée Tunisie/Pods-Randonnée Tunisie.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1195DCD1DDD49E5009E00D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC13AA140A164F7CCB7AE74F /* Pods_Randonne_e_Tunisie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51D3A4EF551A36EA74E0B1A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87BB411D53AA852881A254B6 /* Pods_Randonne_e_Tunisie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1195DC71DDD49E4009E00D8 = {
+			isa = PBXGroup;
+			children = (
+				A1195DD21DDD49E5009E00D8 /* Randonnée Tunisie */,
+				A1195DD11DDD49E5009E00D8 /* Products */,
+				BEA52005BE5DB7FF946FC5D0 /* Pods */,
+				51D3A4EF551A36EA74E0B1A6 /* Frameworks */,
+				A11212EC1DDDC7F90010582B /* Randonnée Tunisie-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		A1195DD11DDD49E5009E00D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1195DD01DDD49E5009E00D8 /* Randonnée Tunisie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1195DD21DDD49E5009E00D8 /* Randonnée Tunisie */ = {
+			isa = PBXGroup;
+			children = (
+				A11212F01DDDD71E0010582B /* Randonnée Tunisie.entitlements */,
+				A1195DD31DDD49E5009E00D8 /* AppDelegate.swift */,
+				A1195DDD1DDD49E5009E00D8 /* Assets.xcassets */,
+				A1195DDF1DDD49E5009E00D8 /* LaunchScreen.storyboard */,
+				A13FC5A51DE83A4400A9087B /* Main.storyboard */,
+				A1195DE21DDD49E5009E00D8 /* Info.plist */,
+				A1195DDA1DDD49E5009E00D8 /* Randonne_e_Tunisie.xcdatamodeld */,
+				A13D191B1DED5E320058AE40 /* Controllers */,
+				A1CA518A1DF9F17D007F7E7B /* Entities */,
+				A17EAD201DDE7AF9002E26F8 /* CustomCells.swift */,
+			);
+			path = "Randonnée Tunisie";
+			sourceTree = "<group>";
+		};
+		A13D191B1DED5E320058AE40 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A18A5EE71DDDA60200DE4190 /* LoginViewController.swift */,
+				A11212F11DDDF0280010582B /* SignUpViewController.swift */,
+				A1DB43D81DDE099700A1AB1D /* HomeTableViewController.swift */,
+				A17EAD1C1DDE71F1002E26F8 /* NewHikeFormViewController.swift */,
+				A17EAD241DDEF773002E26F8 /* ProfileViewController.swift */,
+				A17EAD281DDF09EE002E26F8 /* EditProfileViewController.swift */,
+				A13FC59F1DE8257600A9087B /* CarouselViewController.swift */,
+				A13FC5A31DE8338D00A9087B /* GalleryCollectionViewController.swift */,
+				A1BAE8641DEB30E3005BF402 /* HikeViewController.swift */,
+				A16EA7CA1DF1B393004EC03D /* LocationViewController.swift */,
+				A17989ED1DFAC426006E678D /* AddPostViewController.swift */,
+				A1A9CB9B1E126A230035F691 /* SearchTableViewController.swift */,
+				A142D30C1E1407A7001C3FA4 /* MyHikesTableViewController.swift */,
+				A142D30E1E143CF8001C3FA4 /* ParticipationsTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A1CA518A1DF9F17D007F7E7B /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				A1CA51881DF9F175007F7E7B /* Randonnee.swift */,
+				A1B5CBD41DFA2C5300367142 /* Post.swift */,
+				A1B5CBD61DFA2CF500367142 /* Media.swift */,
+				A1B5CBD81DFA2D7D00367142 /* User.swift */,
+				A1CFA84F1E11543800792813 /* Participation.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		BEA52005BE5DB7FF946FC5D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4521026D3E4EAEBE4BCE0EA8 /* Pods-Randonnée Tunisie.debug.xcconfig */,
+				F36478EB48EEA4B21E3A7929 /* Pods-Randonnée Tunisie.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1195DCF1DDD49E5009E00D8 /* Randonnée Tunisie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1195DE51DDD49E5009E00D8 /* Build configuration list for PBXNativeTarget "Randonnée Tunisie" */;
+			buildPhases = (
+				9DDF4B71BD37F0F5961BFB8A /* [CP] Check Pods Manifest.lock */,
+				A1195DCC1DDD49E5009E00D8 /* Sources */,
+				A1195DCD1DDD49E5009E00D8 /* Frameworks */,
+				A1195DCE1DDD49E5009E00D8 /* Resources */,
+				556E079AE6A45D1F7568501B /* [CP] Embed Pods Frameworks */,
+				D525FC8B9EAEF826EA8B057B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Randonnée Tunisie";
+			productName = "Randonnée Tunisie";
+			productReference = A1195DD01DDD49E5009E00D8 /* Randonnée Tunisie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1195DC81DDD49E5009E00D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ESPRIT;
+				TargetAttributes = {
+					A1195DCF1DDD49E5009E00D8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4U84ASV4FZ;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A1195DCB1DDD49E5009E00D8 /* Build configuration list for PBXProject "Randonnée Tunisie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1195DC71DDD49E4009E00D8;
+			productRefGroup = A1195DD11DDD49E5009E00D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1195DCF1DDD49E5009E00D8 /* Randonnée Tunisie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1195DCE1DDD49E5009E00D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1195DE11DDD49E5009E00D8 /* LaunchScreen.storyboard in Resources */,
+				A1195DDE1DDD49E5009E00D8 /* Assets.xcassets in Resources */,
+				A13FC5A61DE83A4400A9087B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		556E079AE6A45D1F7568501B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Randonnée Tunisie/Pods-Randonnée Tunisie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DDF4B71BD37F0F5961BFB8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D525FC8B9EAEF826EA8B057B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Randonnée Tunisie/Pods-Randonnée Tunisie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1195DCC1DDD49E5009E00D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A16EA7CB1DF1B393004EC03D /* LocationViewController.swift in Sources */,
+				A17EAD291DDF09EE002E26F8 /* EditProfileViewController.swift in Sources */,
+				A17989EE1DFAC426006E678D /* AddPostViewController.swift in Sources */,
+				A13FC5A01DE8257600A9087B /* CarouselViewController.swift in Sources */,
+				A1BAE8651DEB30E3005BF402 /* HikeViewController.swift in Sources */,
+				A13FC5A41DE8338D00A9087B /* GalleryCollectionViewController.swift in Sources */,
+				A142D30D1E1407A7001C3FA4 /* MyHikesTableViewController.swift in Sources */,
+				A17EAD251DDEF773002E26F8 /* ProfileViewController.swift in Sources */,
+				A1A9CB9C1E126A230035F691 /* SearchTableViewController.swift in Sources */,
+				A18A5EE81DDDA60200DE4190 /* LoginViewController.swift in Sources */,
+				A17EAD211DDE7AF9002E26F8 /* CustomCells.swift in Sources */,
+				A17EAD1D1DDE71F1002E26F8 /* NewHikeFormViewController.swift in Sources */,
+				A1CA51891DF9F175007F7E7B /* Randonnee.swift in Sources */,
+				A142D30F1E143CF8001C3FA4 /* ParticipationsTableViewController.swift in Sources */,
+				A1CFA8501E11543800792813 /* Participation.swift in Sources */,
+				A1B5CBD51DFA2C5300367142 /* Post.swift in Sources */,
+				A1195DDC1DDD49E5009E00D8 /* Randonne_e_Tunisie.xcdatamodeld in Sources */,
+				A11212F21DDDF0280010582B /* SignUpViewController.swift in Sources */,
+				A1B5CBD91DFA2D7D00367142 /* User.swift in Sources */,
+				A1B5CBD71DFA2CF500367142 /* Media.swift in Sources */,
+				A1195DD41DDD49E5009E00D8 /* AppDelegate.swift in Sources */,
+				A1DB43D91DDE099700A1AB1D /* HomeTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A1195DDF1DDD49E5009E00D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1195DE01DDD49E5009E00D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1195DE31DDD49E5009E00D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1195DE41DDD49E5009E00D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1195DE61DDD49E5009E00D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4521026D3E4EAEBE4BCE0EA8 /* Pods-Randonnée Tunisie.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Randonnée Tunisie/Randonnée Tunisie.entitlements";
+				DEVELOPMENT_TEAM = 4U84ASV4FZ;
+				INFOPLIST_FILE = "Randonnée Tunisie/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esprit.Randonne-e-Tunisie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Randonnée Tunisie-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A1195DE71DDD49E5009E00D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36478EB48EEA4B21E3A7929 /* Pods-Randonnée Tunisie.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Randonnée Tunisie/Randonnée Tunisie.entitlements";
+				DEVELOPMENT_TEAM = 4U84ASV4FZ;
+				INFOPLIST_FILE = "Randonnée Tunisie/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esprit.Randonne-e-Tunisie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Randonnée Tunisie-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1195DCB1DDD49E5009E00D8 /* Build configuration list for PBXProject "Randonnée Tunisie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1195DE31DDD49E5009E00D8 /* Debug */,
+				A1195DE41DDD49E5009E00D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1195DE51DDD49E5009E00D8 /* Build configuration list for PBXNativeTarget "Randonnée Tunisie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1195DE61DDD49E5009E00D8 /* Debug */,
+				A1195DE71DDD49E5009E00D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A1195DDA1DDD49E5009E00D8 /* Randonne_e_Tunisie.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A1195DDB1DDD49E5009E00D8 /* Randonne_e_Tunisie.xcdatamodel */,
+			);
+			currentVersion = A1195DDB1DDD49E5009E00D8 /* Randonne_e_Tunisie.xcdatamodel */;
+			path = Randonne_e_Tunisie.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A1195DC81DDD49E5009E00D8 /* Project object */;
+}
