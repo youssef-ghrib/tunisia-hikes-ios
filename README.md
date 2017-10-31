@@ -18,6 +18,5 @@
 <img src="/tunisia_hikes_screenshots/1.jpg"/>
 <img src="/tunisia_hikes_screenshots/2.jpg"/>
 <img src="/tunisia_hikes_screenshots/3.jpg"/>
-<img src="/tunisia_hikes_screenshots/4.jpg"/>
 <img src="/tunisia_hikes_screenshots/5.jpg"/>
 <img src="/tunisia_hikes_screenshots/6.jpg"/>
